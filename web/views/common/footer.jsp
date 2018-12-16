@@ -51,10 +51,10 @@
 				<a style="color:white;">- 목록 -</a>
 				</li>
 				<li>
-				<a href="#">서비스 목록</a>
+				<a href="/dsm/views/product/productList.jsp">상품 목록</a>
 				</li>
 				<li>
-				<a href="#">서비스 등록</a>
+				<a href="/dsm/views/product/productEnrollment.jsp">상품 등록</a>
 				</li>
 				<li>
 				<a href="#">게시판</a>

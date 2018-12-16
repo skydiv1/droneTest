@@ -42,11 +42,11 @@
 </head>
 <body>
 	<!-- 네비게이션 바 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-	<%-- <%@ include file="/views/common/navi.jsp" %> --%>
-	<%@ include file="/views/common/naviLogin.jsp"%>
+	<%-- <%@ include file="/views/common/navi.jsp" %> --%> <!-- 로그인 전 -->
+	<%@ include file="/views/common/naviLogin.jsp"%> <!-- 로그인 후 -->
 	<!-- 네비게이션 바 끝 /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 	<section class="bg-light" id="portfolio" style="">
-	<h2 style="margin-top: -80px; padding-left: 10%;">서비스 등록</h2>
+	<h2 style="margin-top: -80px; padding-left: 10%;">상품 등록</h2>
 	<br>
 	<div class="input-group input-group-lg"
 		style="width: 70%; padding-left: 10%;">
@@ -113,10 +113,6 @@
 				</tr>
 			</tbody>
 		</table>
-		<div style="margin-left: 89%;">
-			<button type="button" class="btn btn-warning">추가</button>
-			<button type="button" class="btn btn-danger">삭제</button>
-		</div>
 	</div>
 	<br>
 	<div style="padding-left: 10%; padding-right: 10%;">
@@ -163,6 +159,10 @@
 				</tr>
 			</tbody>
 		</table>
+		<div style="margin-left: 89%;">
+			<button type="button" class="btn btn-warning">추가</button>
+			<button type="button" class="btn btn-danger">삭제</button>
+		</div>
 	</div>
 	<br>
 

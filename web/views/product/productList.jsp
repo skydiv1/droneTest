@@ -40,8 +40,8 @@
 </head>
 <body>
 	<!-- 네비게이션 바 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-	<%-- <%@ include file="/views/common/navi.jsp" %> --%>
-	<%@ include file="/views/common/naviLogin.jsp"%>
+	<%-- <%@ include file="/views/common/navi.jsp" %> --%> <!-- 로그인 전 -->
+	<%@ include file="/views/common/naviLogin.jsp"%> <!-- 로그인 후 -->
 	<!-- 네비게이션 바 끝 /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 	<section class="bg-light" id="portfolio" style="">
 
@@ -73,7 +73,7 @@
 		<div class="row">
 			<div class="col-md-4 col-sm-6 portfolio-item">
 				<a class="portfolio-link" data-toggle="modal"
-					href="#portfolioModal1">
+					href="#">
 					<div class="portfolio-hover">
 						<div class="portfolio-hover-content">
 							<i class="fas fa-plus fa-3x"></i>
@@ -87,7 +87,7 @@
 			</div>
 			<div class="col-md-4 col-sm-6 portfolio-item">
 				<a class="portfolio-link" data-toggle="modal"
-					href="#portfolioModal2">
+					href="#">
 					<div class="portfolio-hover">
 						<div class="portfolio-hover-content">
 							<i class="fas fa-plus fa-3x"></i>
@@ -101,7 +101,7 @@
 			</div>
 			<div class="col-md-4 col-sm-6 portfolio-item">
 				<a class="portfolio-link" data-toggle="modal"
-					href="#portfolioModal3">
+					href="#">
 					<div class="portfolio-hover">
 						<div class="portfolio-hover-content">
 							<i class="fas fa-plus fa-3x"></i>
@@ -115,7 +115,7 @@
 			</div>
 			<div class="col-md-4 col-sm-6 portfolio-item">
 				<a class="portfolio-link" data-toggle="modal"
-					href="#portfolioModal4">
+					href="#">
 					<div class="portfolio-hover">
 						<div class="portfolio-hover-content">
 							<i class="fas fa-plus fa-3x"></i>
@@ -129,7 +129,7 @@
 			</div>
 			<div class="col-md-4 col-sm-6 portfolio-item">
 				<a class="portfolio-link" data-toggle="modal"
-					href="#portfolioModal5">
+					href="#">
 					<div class="portfolio-hover">
 						<div class="portfolio-hover-content">
 							<i class="fas fa-plus fa-3x"></i>
@@ -143,7 +143,7 @@
 			</div>
 			<div class="col-md-4 col-sm-6 portfolio-item">
 				<a class="portfolio-link" data-toggle="modal"
-					href="#portfolioModal6">
+					href="#">
 					<div class="portfolio-hover">
 						<div class="portfolio-hover-content">
 							<i class="fas fa-plus fa-3x"></i>
