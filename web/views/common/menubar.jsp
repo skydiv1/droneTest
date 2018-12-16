@@ -27,13 +27,12 @@
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body id="page-top">
-
+<body id="page-top">
  <!-- 네비게이션 바 -->
-<%-- 		<%@ include file = "navi.jsp" %> --%>
-		<%@ include file = "naviLogin.jsp" %>
+<%-- 		<%@ include file = "navi.jsp" %> --%> <!-- 로그인 전 -->
+		<%@ include file = "naviLogin.jsp" %> <!-- 로그인 후 -->
 <!-- 네비게이션 바 끝 /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <!-- Header -->
 <!-- header 끝 /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -49,7 +48,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-4 col-sm-6 portfolio-item">
-			<a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+			<a class="portfolio-link" data-toggle="modal" href="#">
 			<div class="portfolio-hover">
 				<div class="portfolio-hover-content">
 					<i class="fas fa-plus fa-3x"></i>
@@ -60,12 +59,12 @@
 			<div class="portfolio-caption">
 				<h4>랭킹 1</h4>
 				<p class="text-muted">
-					Illustration
+					IDIllustration
 				</p>
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-6 portfolio-item">
-			<a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+			<a class="portfolio-link" data-toggle="modal" href="#">
 			<div class="portfolio-hover">
 				<div class="portfolio-hover-content">
 					<i class="fas fa-plus fa-3x"></i>
@@ -76,12 +75,12 @@
 			<div class="portfolio-caption">
 				<h4>랭킹 2</h4>
 				<p class="text-muted">
-					Graphic Design
+					IDGraphic Design
 				</p>
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-6 portfolio-item">
-			<a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+			<a class="portfolio-link" data-toggle="modal" href="#">
 			<div class="portfolio-hover">
 				<div class="portfolio-hover-content">
 					<i class="fas fa-plus fa-3x"></i>
@@ -92,12 +91,12 @@
 			<div class="portfolio-caption">
 				<h4>랭킹 3</h4>
 				<p class="text-muted">
-					Identity
+					IDIdentity
 				</p>
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-6 portfolio-item">
-			<a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+			<a class="portfolio-link" data-toggle="modal" href="#">
 			<div class="portfolio-hover">
 				<div class="portfolio-hover-content">
 					<i class="fas fa-plus fa-3x"></i>
@@ -108,12 +107,12 @@
 			<div class="portfolio-caption">
 				<h4>랭킹 4</h4>
 				<p class="text-muted">
-					Branding
+					IDBranding
 				</p>
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-6 portfolio-item">
-			<a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+			<a class="portfolio-link" data-toggle="modal" href="#">
 			<div class="portfolio-hover">
 				<div class="portfolio-hover-content">
 					<i class="fas fa-plus fa-3x"></i>
@@ -124,12 +123,12 @@
 			<div class="portfolio-caption">
 				<h4>랭킹 5</h4>
 				<p class="text-muted">
-					Website Design
+					IDWebsite Design
 				</p>
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-6 portfolio-item">
-			<a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+			<a class="portfolio-link" data-toggle="modal" href="#">
 			<div class="portfolio-hover">
 				<div class="portfolio-hover-content">
 					<i class="fas fa-plus fa-3x"></i>
@@ -140,7 +139,7 @@
 			<div class="portfolio-caption">
 				<h4>랭킹 6</h4>
 				<p class="text-muted">
-					Photography
+					IDPhotography
 				</p>
 			</div>
 		</div>
@@ -169,9 +168,9 @@
 			<img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
 			</a>
 			<div class="portfolio-caption">
-				<h4>상품 1</h4>
+				<h4>상품 1의 제목</h4>
 				<p class="text-muted">
-					Illustration
+					IDIllustration
 				</p>
 			</div>
 		</div>
@@ -185,9 +184,9 @@
 			<img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
 			</a>
 			<div class="portfolio-caption">
-				<h4>상품 2</h4>
+				<h4>상품 2의 제목</h4>
 				<p class="text-muted">
-					Graphic Design
+					IDGraphic Design
 				</p>
 			</div>
 		</div>
@@ -201,9 +200,9 @@
 			<img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
 			</a>
 			<div class="portfolio-caption">
-				<h4>상품 3</h4>
+				<h4>상품 3의 제목</h4>
 				<p class="text-muted">
-					Identity
+					IDIdentity
 				</p>
 			</div>
 		</div>
@@ -217,9 +216,9 @@
 			<img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
 			</a>
 			<div class="portfolio-caption">
-				<h4>상품 4</h4>
+				<h4>상품 4의 제목</h4>
 				<p class="text-muted">
-					Branding
+					IDBranding
 				</p>
 			</div>
 		</div>
@@ -233,9 +232,9 @@
 			<img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
 			</a>
 			<div class="portfolio-caption">
-				<h4>상품 5</h4>
+				<h4>상품 5의 제목</h4>
 				<p class="text-muted">
-					Website Design
+					IDWebsite Design
 				</p>
 			</div>
 		</div>
@@ -248,7 +247,7 @@
 <script>
 	$(function () {
 		$("#product1").click(function name() { // 최근 본 상품 1로 이동
-			location.href="views/member/product.jsp";
+			location.href="views/product/productDetail.jsp";
 		});
 	});
 </script>  
@@ -259,6 +258,5 @@
 <%@ include file="/views/common/footer.jsp" %>
 <!-- footer 끝 /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-  </body>
-
+</body>
 </html>
